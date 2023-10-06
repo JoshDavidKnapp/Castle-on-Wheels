@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b6a21df2b3182a49ad81c49f3c33a17, type: 3}
+  m_Name: TroopStats
+  m_EditorClassIdentifier: 
+  EnemyGruntHealth: 10
+  coins: 7100
+  Waypoint: {x: -243.79285, y: 22.01007, z: 258.3855}
+  militiaLevel: 1
+  militiaHealth: 5
+  militiaDamage: 3
+  militiaCost: 3
+  archerLevel: 1
+  archerHealth: 5
+  archerDamage: 3
+  archerCost: 3
+  heavyLevel: 1
+  heavyHealth: 10
+  heavyDamage: 6
+  heavyCost: 15
+  balloonLevel: 1
+  balloonHealth: 15
+  balloonDamage: 30
+  balloonCost: 7
+  assassinLevel: 1
+  assassinHealth: 20
+  assassinDamage: 40
+  assassinCost: 6
+  sorcLevel: 1
+  sorcHealth: 50
+  sorcDamage: 50
+  sorcererCost: 4
+  castleLevel: 1
+  castleHealth: 150
+  castleMaxHealth: 150
+  castleDamage: 100
+  castleSpeed: 5
+  castleCoinsRequired: 100
+  castleCoinsRequiredIncrease: 100
+  foodTotal: 100
+  foodRate: 1
+  foodCurrent: 40
+  isArcherUnlocked: 0
+  isHeavyUnlocked: 1
+  isBalloonUnlocked: 0
+  isAssassinUnlocked: 0
+  isSorcUnlocked: 0
+  militiaCoinsRequired: 50
+  militiaCoinsRequiredIncrease: 25
+  archerCoinsRequired: 75
+  archerCoinsRequiredIncrease: 50
+  heavyCoinsRequired: 100
+  heavyCoinsRequiredIncrease: 75
+  balloonCoinsRequired: 125
+  balloonCoinsRequiredIncrease: 100
+  assassinCoinsRequired: 150
+  assassinCoinsRequiredIncrease: 125
+  sorcCoinsRequired: 175
+  sorcCoinsRequiredIncrease: 150
+  foodCoinsRequired: 100
+  foodCoinsRequiredIncrease: 100
+  isLevel1Complete: 1
+  isLevel2Complete: 0
+  isLevel3Complete: 0
